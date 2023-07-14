@@ -1,0 +1,96 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<br><br>
+ <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h1 style="text-align: center">Edit  Account</h1>
+            <br />
+              <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                <img
+                  style="width: 300px; height: 300px"
+                src="images/profilepic.png"  alt="circle user avatar Icon 4035892"
+                  class="styles__Image-sc-2erpfv-1 eOQgUF"
+                />
+              </div>
+              <div class="col-md-4"></div>
+            </div>
+                <br>
+            <form method="post" action="EditProfileServlet">
+             <div class="row">
+              <div class="col-md-6 form-group">
+              <input value="<id>" type="hidden" name="user_id"/>
+                <label>First Name</label
+                ><input name="fname" value="fn " class="form-control" placeholder="First Name" />
+              </div>
+              <div class="col-md-6">
+                <label>Last Name</label
+                ><input name="lname"  value="ln" class="form-control" placeholder="Last Name" />
+              </div>
+              <div class="col-md-6">
+                <label>Address : </label
+                ><input name="address"  value="ln" class="form-control" placeholder="Address" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label>Telephone</label
+                ><input
+                 value="tp "
+                 name="tp"
+                  class="form-control"
+                  type="number"
+                  placeholder="Telephone"
+                />
+              </div>
+              <div class="col-md-6">
+                <label>Email</label
+                ><input name="email" value="em " class="form-control" placeholder="Email" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label>NIC</label
+                ><input
+                value="nic"
+                name="nic"
+                  class="form-control"
+                  placeholder="National Identity Card"
+                />
+              </div>
+              <div class="col-md-6">
+                <label>DOB</label
+                ><input name="dob" class="form-control" type="date" placeholder="Date" value="dob>" />
+              </div>
+            </div>
+      
+            <br>
+            <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+            <input type="submit" class="btn btn-primary col-md-12" value="Edit  Account"/>
+            <input type="submit" class="btn btn-primary col-md-12" value="Dlete Account"/>
+            </div>
+            <div class="col-md-4"></div>
+            </div>
+            </form>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+      <br><br>
+    </div>
+</body>
+</html>
