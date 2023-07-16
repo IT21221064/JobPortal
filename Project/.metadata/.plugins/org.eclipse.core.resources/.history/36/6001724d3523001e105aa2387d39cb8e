@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@include file="nav.html" %>
+<form method="post" action="#">
+<h1>Job Name</h1>
+<label for="aID">Application ID : </label>
+<input type="text" name="aID" id="aID" placeholder="#121232134"><br><br>
+
+<label for="jID">Job Seeker ID : </label>
+<input type="text" name="jID" id="jID" placeholder="#565443"><br><br>
+
+<div class="row">
+<div class="col"></div>
+<div class="col"><div class="row">
+</div></div></div>
+<br><br>
+
+
+              <div class="col-md-4"></div>
+            </div>
+                <br>
+            <form method="post" action="ProfileServlet">
+             <div class="row">
+              <div class="col-md-6 form-group">
+              <input value="id" type="hidden" name="user_id"/>
+                <label>First Name</label
+                ><input name="fname" value="fn " class="form-control" placeholder="First Name" />
+              </div>
+              <div class="col-md-6">
+                <label>Last Name</label
+                ><input name="lname"  value="ln" class="form-control" placeholder="Last Name" />
+<label for ="dob">Date of Birth : </label>
+<input type="date" name="dob" id="dob"><br><br>
+
+<label for="cv">Upload Resume: </label><br>
+
+<input type="file" name="cv" id="cv"><br><br>
+
+<input type="submit" value="Submit Application"><br><br>
+
+</form>
+
+</body>
+</html>

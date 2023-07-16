@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<%@include file="nav.html" %>
+<body>
+<h1>Recruiter Information</h1>
+ <label>First Name :</label>
+ <input name="fname" class="form-control" placeholder="First Name" /><br><br>
+
+ <label>Last Name :</label>
+ <input name="lname" class="form-control" placeholder="Last Name" /><br><br>
+
+ <label>Address : </label>
+ <input name="address" class="form-control" placeholder="Address" /><br><br>
+
+ <label>Telephone :</label >
+ <input name="tp" class="form-control" type="text" placeholder="Telephone"/><br><br>
+
+ <label>Email :</label><br>
+ <input type="email" class="form-control" placeholder="Email" /><br><br>
+ 
+  <label>Password :</label><br>
+  <input type="password" class="form-control"/><br><br>
+  
+  <label>Confirm Password :</label><br>
+  <input type="password" class="form-control"/><br><br>
+
+ <label>NIC :</label>
+ <input name="nic" class="form-control" placeholder="National Identity Card" type="text"/><br><br>
+ 
+ <label>DOB</label>
+ <input name="dob" class="form-control" type="date" placeholder="Date" value="dob" /><br><br>
+ 
+ <input type="submit" value="Enter">
+
+</body>
+</html>

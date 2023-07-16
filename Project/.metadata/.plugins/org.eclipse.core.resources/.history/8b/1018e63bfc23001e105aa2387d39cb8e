@@ -1,0 +1,98 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@include file="nav.html" %>
+<div class="container">
+			<div class="row">
+				<div class="rounded shadow bg-white">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="m-5">
+								<h1>Application Form</h1>
+							</div>
+							
+							<form class="m-5">
+								<div class="mb-3">
+									<label class="form-label" for="aID">Application ID</label>
+									<input class="form-control" type="text" id="aID" placeholder="#121232134" />
+								</div>
+								
+								<div class="mb-3">
+									<label class="form-label" for="jID">Job Seeker ID</label>
+									<input class="form-control" type="text" id="jID" placeholder="#121232134" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="fname">First Name</label>
+									<input class="form-control" type="text" id="fname" placeholder="Semmi" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="lname">Last Name</label>
+									<input class="form-control" type="text" id="lname" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="mNO">Mobile No</label>
+									<input class="form-control" type="text" id="mNO" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="dob">Date of Birth</label>
+									<input class="form-control" type="date" id="dob" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="cv">Upload Resume</label>
+									<input class="form-control" type="file" id="cv" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="lname">Last Name</label>
+									<input class="form-control" type="text" id="lname" />
+								</div>
+								
+									<div>
+										<input type="submit" value="Submit Application" class="btn btn-primary mt-3">
+									</div>								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+<form method="post" action="#">
+<h1>Application Form</h1>
+<label for="aID">Application ID : </label>
+<input type="text" name="aID" id="aID" placeholder="#121232134"><br><br>
+
+<label for="jID">Job Seeker ID : </label>
+<input type="text" name="jID" id="jID" placeholder="#565443"><br><br>
+
+ <input value="id" type="hidden" name="user_id"/>
+ 
+               <label>First Name</label>
+               <input name="fname" class="form-control" placeholder="First Name" /><br><br>
+       
+               <label>Last Name</label>
+               <input name="lname"  class="form-control" placeholder="Last Name" /><br><br>
+                
+               <label>Telephone</label>
+               <input name="tp" class="form-control" type="number" placeholder="Telephone" /><br><br>
+               
+<label for ="dob">Date of Birth : </label>
+<input type="date" name="dob" id="dob"><br><br>
+
+<label for="cv">Upload Resume: </label><br>
+
+<input type="file" name="cv" id="cv"><br><br>
+
+<input type="submit" value="Submit Application"><br><br>
+
+</form>
+
+</body>
+</html>
