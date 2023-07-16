@@ -1,0 +1,5 @@
+<nav>
+	<a href="/JobApp/login.jsp">Home</a>
+	<a href="/JobApp/profile.jsp">Profile</a>
+	<a href="">Jobs</a>
+</nav>

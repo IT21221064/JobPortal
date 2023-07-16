@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <label>First Name :</label>
+ <input name="fname" class="form-control" placeholder="First Name" /><br>
+
+ <label>Last Name :</label>
+ <input name="lname" class="form-control" placeholder="Last Name" /><br>
+
+ <label>Address : </label>
+ <input name="address" class="form-control" placeholder="Address" /><br>
+
+ <label>Telephone :</label >
+ <input name="tp" class="form-control" type="number" placeholder="Telephone"/><br>
+
+ <label>Email :</label>
+ <input type="email" class="form-control" placeholder="Email" />
+
+ <label>NIC :</label>
+ <input name="nic" class="form-control" placeholder="National Identity Card" type="number"/>
+ 
+ <label>DOB</label>
+ <input name="dob" class="form-control" type="date" placeholder="Date" value="dob" />
+ 
+ <input type="submit" value="Enter">
+
+</body>
+</html>

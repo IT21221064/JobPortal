@@ -1,0 +1,66 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@include file="nav.html" %>
+<div class="container">
+			<div class="row text-center p-3">
+				<div class="rounded shadow bg-white">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="m-5">
+								<h1>Application Form</h1>
+							</div>
+							
+							<form class="m-5">
+
+								
+								<div class="mb-3">
+									<label class="form-label" for="jID">Job Seeker ID</label>
+									<input class="form-control" type="text" id="jID" placeholder="#121232134" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="fname">First Name</label>
+									<input class="form-control" type="text" id="fname" placeholder="Semmi" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="lname">Last Name</label>
+									<input class="form-control" type="text" id="lname" placeholder="Buruwa" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="email">Email</label>
+									<input class="form-control" type="email" id="Email" placeholder="gonSemmi@gmail.com" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="mNO">Mobile No</label>
+									<input class="form-control" type="text" id="mNO" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="dob">Date of Birth</label>
+									<input class="form-control" type="date" id="dob" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label" for="cv">Upload Resume</label>
+									<input class="form-control" type="file" id="cv" />
+								</div>								
+									<div>
+										<input type="submit" value="Submit Application" class="btn btn-primary mt-3">
+									</div>								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+</body>
+</html>

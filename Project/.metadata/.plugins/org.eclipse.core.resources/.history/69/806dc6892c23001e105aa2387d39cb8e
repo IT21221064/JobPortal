@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@include file="nav.html" %>
+<form method="post" action="#">
+<h1>Create Account</h1>
+<label for="fname">First Name : </label>
+<input type="text" name="fname" id="fname" placeholder="Semmi"><br><br>
+
+<label for="lname">Last Name : </label>
+<input type="text" name="lname" id="lname" placeholder="buruwa"><br><br>
+
+<label for="email">Email : </label>
+<input type="email" name="email" id="email" placeholder="gonsemmi@gmail.com"><br><br>
+
+<label for ="pw">Password : </label>
+<input type="password" name="pw" id="pw"><br><br>
+
+<label for ="dob">Date of Birth : </label>
+<input type="date" name="dob" id="dob"><br><br>
+
+<label for ="nic">NIC : </label>
+<input type="number" name="nic" id="nic" placeholder="98765642138"><br><br>
+
+<input type="file" name="pfp" id="pfp"><br><br>
+
+<input type="submit" value="Create Account"><br><br>
+
+</form>
+
+</body>
+</html>
